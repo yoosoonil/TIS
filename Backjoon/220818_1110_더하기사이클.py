@@ -1,3 +1,5 @@
+# 참고 : https://wook-2124.tistory.com/222
+
 n = int(input()) # 68
 
 num = n
