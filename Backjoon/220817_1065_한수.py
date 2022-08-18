@@ -7,9 +7,9 @@ for i in range(1, num + 1):
     num_list = list(map(int, str(i)))
     print(num_list)
     if i < 100:
-        hansu += 1 # 100보다 작으면 모두 한수
+        hansu += 1 # 100보다 작으면 모두 한수.
     elif num_list[0]-num_list[1] == num_list[1]-num_list[2]:
-        hansu += 1 # num의 각 자리가 등차 수열이면 한수
+        hansu += 1 # num의 각 자리가 등차 수열이면 한수.
 print(hansu)
 
 # 110 입력하면 99가 출력.
