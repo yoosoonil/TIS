@@ -30,6 +30,5 @@ for i in range(len(count)):
 print(sorted([unique_list[i] for i in idx])[0])
     # i =0 -> unique_list[0] -> top 
     # 정렬된 값 중 [0](첫번째) 값을 출력.
-    # 어차피 한개임.
     
     
