@@ -21,7 +21,8 @@ result = sorted(list(a & b))
 
 print(len(result))
 
-for i in result:
-    print(i)
+print(*result, sep = "\n")
+# for i in result:
+#     print(i)
       
 
