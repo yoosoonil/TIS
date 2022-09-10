@@ -38,7 +38,7 @@ for i in range(n):
 # {1: 2, 2: 2}
 # {1: 3, 2: 2}
 
-result = sorted(card_dic.items(), key = lambda x : (x[0],-x[1]))
+result = sorted(card_dic.items(), key = lambda x : (-x[1], x[0]))
 # card_dic.items() : card_dic라는 딕셔너리에서 key/value 모두 출력
 # 정렬 하겠다는건데, -를 붙이면, 현재와 반대차순으로 정렬
 # -x[1],x[0] -> x[1] 값을 내림차순하고, x[1]값이 같다면 x[0]은 오름차순
