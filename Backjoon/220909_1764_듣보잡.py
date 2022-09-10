@@ -21,8 +21,11 @@ result = sorted(list(a & b))
 
 print(len(result))
 
+# 리스트를 줄바꿔서 출력하는 법이 2가지있음.
+# 1. 리스트를 *(unpacking) 해준 후, sep = "\n"으로 줄바꿔줌.
 print(*result, sep = "\n")
-# for i in result:
-#     print(i)
+# 2. for문으로 하나 씩 뽑아내서 출력.
+for i in result:
+    print(i)
       
 
