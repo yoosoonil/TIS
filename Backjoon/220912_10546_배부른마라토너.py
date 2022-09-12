@@ -1,3 +1,5 @@
+# 풀이참고 : https://changsroad.tistory.com/174
+
 import sys
 
 n = int(sys.stdin.readline())
