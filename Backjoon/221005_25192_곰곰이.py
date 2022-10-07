@@ -10,7 +10,7 @@ for _ in range(N):
     Input = input()  # input 정의
 
     if Input == "ENTER":  # input에 'ENTER' 입력된다면,
-        for key, value in dic.items():  # 딕셔너리의 key, value를 가져옴.
+        for key, value in dic.items():  # 딕셔너리의 key, value를 가져옴. 이거 moviereview 프로젝트에 쓰임.
             if value == 1:  # value가 1이라면,
                 cnt += 1  # cnt에 1추가.
         dic = {}
